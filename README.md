@@ -1,2 +1,2 @@
-# loginServer
-Very basic spring-boot application.
+#loginClient
+Very basic react rest client application.
