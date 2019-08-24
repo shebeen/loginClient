@@ -27,6 +27,9 @@ class App extends React.Component {
       if(data.response == 'failed'){
         await this.setState({"failure":true});
       }
+      else{
+        await this.setState({"failure":false});
+      }
       await this.setState({"response":data.response});
     })        
   }
